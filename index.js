@@ -55,5 +55,5 @@ app.post("/roles", (req, res) => {
 })
 
 app.listen(PORT, () => {
-  console.log(`Authorizations Microservice running on port ${PORT}`);
+  console.log(`Permissions Microservice running on port ${PORT}`);
 })
